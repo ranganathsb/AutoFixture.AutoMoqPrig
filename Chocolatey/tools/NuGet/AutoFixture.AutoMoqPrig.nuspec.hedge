@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>AutoFixture.AutoMoqPrig</id>
+    <version>0.0.0</version>
+    <title>AutoFixture with auto mocking using Moq and Prig</title>
+    <authors>Akira Sugiura</authors>
+    <owners>Akira Sugiura</owners>
+    <licenseUrl>https://github.com/urasandesu/AutoFixture.AutoMoqPrig/blob/master/LICENSE.md</licenseUrl>
+    <projectUrl>https://github.com/urasandesu/AutoFixture.AutoMoqPrig</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <summary>
+      AutoFixture with auto mocking using Moq and Prig.
+    </summary>
+    <description>
+      This library enables that AutoFixture creates mock using Moq and Prig.
+    </description>
+    <copyright>(c) 2016 Akira Sugiura. All rights reserved.</copyright>
+    <tags>tdd isolation mock mocks mocking fake fakes faking unittest unittesting</tags>
+    <releaseNotes>Version 0.0.0
+* Initial release.
+
+
+About more previous versions, please see https://github.com/urasandesu/AutoFixture.AutoMoqPrig/releases .
+    </releaseNotes>
+    <dependencies>
+      <dependency id="Moq.Prig" version="0.0.0" />
+      <dependency id="AutoFixture" version="3.43.0" />
+    </dependencies> 
+  </metadata>
+  <files>
+    <file src="..\..\lib\**\*.*" target="lib" />
+    <file src="tools\**\*.*" target="tools" />
+  </files>
+</package>
